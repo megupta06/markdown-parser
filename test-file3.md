@@ -1,7 +1,5 @@
 # title
 
-[stuff]
+[]
 
-paragraph
-
-(page.com)
+more text here
