@@ -49,10 +49,6 @@ public class MarkdownParse {
             }
             
         }
-        System.out.println("hiiy");
-        System.out.println("hiiy");
-        //System.out.println("hy");
-
         
         return toReturn;
         
