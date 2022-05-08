@@ -41,7 +41,7 @@ public class MarkdownParse {
             toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
             if(finalIndex == currentIndex){
-                check = true;
+               check = true;
             }
             finalIndex = currentIndex;
             if(check){
@@ -49,8 +49,9 @@ public class MarkdownParse {
             }
             
         }
-        //System.out.println("hiiy");
-        System.out.println("hy");
+        System.out.println("hiiy");
+        System.out.println("hiiy");
+        //System.out.println("hy");
 
         return toReturn;
         
