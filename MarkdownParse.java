@@ -49,12 +49,8 @@ public class MarkdownParse {
             }
             
         }
-<<<<<<< HEAD
-        System.out.println("hjni");
-=======
-        //System.out.println("hjni");
->>>>>>> 7c9165817ba9a5f7e6cd28a8a0c46a689d0ff47f
-        System.out.println("hji");
+        System.out.println("hi");
+        System.out.println("hi");
         
         return toReturn;
         
