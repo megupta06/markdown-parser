@@ -1,4 +1,10 @@
 import static org.junit.Assert.*;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+
 import org.junit.*;
 public class MarkdownParseTest {
 
@@ -8,5 +14,16 @@ public class MarkdownParseTest {
         assertEquals(6, 2+4);
         assertEquals(8, 7+1);
     }
-// Adding Tests
+
+    @Test
+    public void test_Snippet1() throws IOException{
+        MarkdownParse mParse = new MarkdownParse();
+        Path fileName = Path.of("Snippet1.md");
+        String content = Files.readString(fileName);
+        ArrayList<String> Snippet1 = mParse.getLinks(content);
+        ArrayList<String> result = new ArrayList<String>();
+        result.add("`google.com");
+        assertEquals(result, Snippet1);
+    }
+
 }
